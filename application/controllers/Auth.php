@@ -30,7 +30,7 @@ class Auth extends CI_Controller {
 
 	public function userVerification()
 	{
-		$userValid= true;
+		$userValid= ture;
 
 		if($userValid){
 			redirect('authMember');
