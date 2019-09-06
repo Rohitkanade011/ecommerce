@@ -5,7 +5,14 @@ class AuthMember extends CI_Controller {
 
 	public function index()
 	{
-		$this->load->view('_userAuth/dashboardView');
+		// Page Required Parameter 
+		$pageData['title'] 		= "Dashboard";
+		$pageData['userRole'] = "1000270120";
+
+    // load view
+		$this->load->view('_userAuth/includes/headerView', $pageData);
+		$this->load->view('_userAuth/dashboardView', $pageData);
+		$this->load->view('_userAuth/includes/footerView');
 	}
 
 }
