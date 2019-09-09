@@ -11,29 +11,22 @@
     <meta name="author" content="ThemePixels">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="<?= base_url() ?>/assets/img/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="<?= base_url() ?>assets/img/favicon.png">
 
     <title><?= $title ?> :: DashForge</title>
 
-    <!-- vendor css -->
-    <link href="<?= base_url() ?>/lib/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
-    <link href="<?= base_url() ?>/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-    <link href="<?= base_url() ?>/lib/jqvmap/jqvmap.min.css" rel="stylesheet">
-
-    <!-- DashForge CSS -->
-    <link rel="stylesheet" href="<?= base_url() ?>/assets/css/dashforge.css">
-    <link rel="stylesheet" href="<?= base_url() ?>/assets/css/dashforge.dashboard.css">
+    <?= $pageHeader ?>
   </head>
   <body class="page-profile">
 
     <header class="navbar navbar-header navbar-header-fixed">
       <a href="" id="mainMenuOpen" class="burger-menu"><i data-feather="menu"></i></a>
       <div class="navbar-brand">
-        <a href="<?= base_url() ?>" class="df-logo">dash<span>forge</span></a>
+        <a href="<?= base_url('authMember') ?>" class="df-logo">dash<span>forge</span></a>
       </div><!-- navbar-brand -->
       <div id="navbarMenu" class="navbar-menu-wrapper">
         <div class="navbar-menu-header">
-          <a href="<?= base_url() ?>" class="df-logo">dash<span>forge</span></a>
+          <a href="<?= base_url('authMember') ?>" class="df-logo">dash<span>forge</span></a>
           <a id="mainMenuClose" href=""><i data-feather="x"></i></a>
         </div><!-- navbar-menu-header -->
         <ul class="nav navbar-menu">
@@ -215,7 +208,7 @@
             <a href="page-profile-view.html" class="dropdown-item"><i data-feather="user"></i> View Profile</a>
             <div class="dropdown-divider"></div>
             <a href="page-help-center.html" class="dropdown-item"><i data-feather="help-circle"></i> Help Center</a>
-            <a href="" class="dropdown-item"><i data-feather="life-buoy"></i> Forum</a>
+            <a href="" class="dropdown-item"><i data-feather="life-buoy"></i>Account Activity</a>
             <a href="" class="dropdown-item"><i data-feather="settings"></i>Account Settings</a>
             <a href="" class="dropdown-item"><i data-feather="settings"></i>Privacy Settings</a>
             <a href="page-signin.html" class="dropdown-item"><i data-feather="log-out"></i>Sign Out</a>
