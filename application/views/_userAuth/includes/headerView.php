@@ -200,9 +200,9 @@
             <div class="avatar avatar-sm"><img src="https://via.placeholder.com/500" class="rounded-circle" alt=""></div>
           </a><!-- dropdown-link -->
           <div class="dropdown-menu dropdown-menu-right tx-13">
-            <div class="avatar avatar-lg mg-b-15"><img src="https://via.placeholder.com/500" class="rounded-circle" alt=""></div>
-            <h6 class="tx-semibold mg-b-5"><?= $userName ?></h6>
-            <p class="mg-b-25 tx-12 tx-color-03"><?= $userRole ?></p>
+            <div class="avatar avatar-lg mg-b-15 mx-auto"><img src="https://via.placeholder.com/500" class="rounded-circle" alt=""></div>
+            <h6 class="tx-semibold mg-b-5 text-center"><?= $userName ?></h6>
+            <p class="mg-b-25 tx-12 tx-color-03 text-center"><i class="fas fa-circle text-success"></i> <?= $userRole ?></p>
 
             <a href="" class="dropdown-item"><i data-feather="edit-3"></i> Edit Profile</a>
             <a href="page-profile-view.html" class="dropdown-item"><i data-feather="user"></i> View Profile</a>
