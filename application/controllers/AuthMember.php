@@ -21,6 +21,7 @@ class AuthMember extends CI_Controller {
     <link href="'.base_url().'lib/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
     <link href="'.base_url().'lib/ionicons/css/ionicons.min.css" rel="stylesheet">
     <link href="'.base_url().'lib/jqvmap/jqvmap.min.css" rel="stylesheet">
+    <link href="'.base_url().'lib/@fortawesome/fontawesome-free/css/all.min.css">
 
     <!-- DashForge CSS -->
     <link rel="stylesheet" href="'.base_url().'assets/css/dashforge.css">
