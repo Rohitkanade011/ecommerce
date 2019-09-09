@@ -7,7 +7,13 @@ class AuthMember extends CI_Controller {
 	{
 		// Page Required Parameter 
 		$pageData['title'] 		= "Dashboard";
-		$pageData['userRole'] = "1000270120";
+		$pageData['userRoleID'] = "1000270120";
+		if($pageData['userRoleID'] == "1000270120"){
+			$pageData['userRole'] = "Administrator";
+		}else{
+			$pageData['userRole'] = "Member";
+		}
+		$pageData['userName'] = "Rohit Kanade";
 
     // load view
 		$this->load->view('_userAuth/includes/headerView', $pageData);
