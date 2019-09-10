@@ -5,3 +5,9 @@
   font-size: 80%;
   color: #dc3545;
 }
+
+select .select2.ad-se{
+	min-width: 200px !important;
+}
+
+.hide{display: none;}

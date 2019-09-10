@@ -6,7 +6,7 @@
         <li class="breadcrumb-item active" aria-current="page"><?= $userName ?></li>
       </ol>
     </nav>
-    <h4 class="mg-b-0 tx-spacing--1">Welcome to Dashboard</h4>
+    <h4 class="mg-b-0 tx-spacing--1 text-uppercase">Welcome To <?= $title ?></h4>
   </div>
   <!-- <div class="d-none d-md-block">
     <button class="btn btn-sm pd-x-15 btn-white btn-uppercase"><i data-feather="mail" class="wd-10 mg-r-5"></i> Email</button>

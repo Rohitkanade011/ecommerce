@@ -35,7 +35,7 @@
           <li class="nav-item with-sub">
             <a href="" class="nav-link"><i data-feather="shopping-cart"></i> Orders</a>
             <ul class="navbar-menu-sub">
-              <li class="nav-sub-item"><a href="#!" class="nav-sub-link"><i data-feather="shopping-cart"></i>Order List</a></li>
+              <li class="nav-sub-item"><a href="<?= base_url('authMember/orders') ?>" class="nav-sub-link"><i data-feather="shopping-cart"></i>Order List</a></li>
               <li class="nav-sub-item"><a href="#!" class="nav-sub-link"><i data-feather="truck"></i>Order Status</a></li>
               <li class="nav-sub-item"><a href="#!" class="nav-sub-link"><i data-feather="bar-chart"></i>Statistics</a></li>
               <li class="nav-sub-item"><a href="#!" class="nav-sub-link"><i data-feather="dollar-sign"></i>Accounting</a></li>
