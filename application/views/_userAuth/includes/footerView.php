@@ -296,6 +296,24 @@ $(function() {
     cb(start, end);
 
 });
+
+$(function(){
+
+  new Morris.Donut({
+    element: 'today',
+    data: [
+      {label: 'Men', value: 12},
+      {label: 'Women', value: 30},
+      {label: 'Kids', value: 20},
+      {label: 'Infant', value: 25}
+    ],
+    colors: ['#560bd0', '#007bff','#00cccc','#74DE00'],
+    resize: true,
+  });
+
+  
+
+});
 </script>
   </body>
 </html>
